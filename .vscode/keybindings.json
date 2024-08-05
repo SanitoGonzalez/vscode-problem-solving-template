@@ -1,0 +1,14 @@
+[
+    {
+        "key": "f6",
+        "command": "workbench.action.tasks.runTask",
+        "args": "cpp-build-run", // Note: Must be same with label of task
+        "when": "editorTextFocus && editorLangId == cpp" // Constraint for only active cpp files
+    },
+    {
+        "key": "f7",
+        "command": "workbench.action.tasks.runTask",
+        "args": "cpp-run",
+        "when": "editorTextFocus && editorLangId == cpp"
+    }
+]
