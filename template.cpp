@@ -1,8 +1,13 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
+#include <vector>
+
+using namespace std;
 
 int main() {
-    using namespace std;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
     string input;
     getline(cin, input);
